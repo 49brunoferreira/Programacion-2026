@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background: #08090e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dashboard{
+    display: grid;
+    grid-template-columns: 180px 350px 180px;
+    grid-template-rows: 60px 250px 50px;
+    gap: 10px;
+
+    grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+}
+header{
+    grid-area: header;
+    background: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+nav{
+    grid-area: nav;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+main{
+    grid-area: main;
+    background: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.tarjeta{
+    width: 120px;
+    height: 90px;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside{
+    grid-area: aside;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+footer{
+    grid-area: footer;
+    background: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+h2 {
+    color: blue;
+}
+.destacado {
+    background-color: yellow;
+}
+#principal {
+ 
+    border: 2px solid black;
+    text-align: center;
+}
+p {
+    color: red;
+}
+.hexadecimal {
+    color: #FF5733;
+}
+.rgb {
+    color: rgb(255, 87, 51);
+}
+.rgba {
+    color: rgba(255, 87, 51, 0.5);
+}
+
+/*
+Diferencia entre class e id
+
+- class:
+  Se utiliza para aplicar el mismo estilo a varios elementos.
+  Una misma clase puede repetirse muchas veces.
+
+- id:
+  Se utiliza para identificar un único elemento de la página.
+  Cada id debe ser diferente y no repetirse.
+*/

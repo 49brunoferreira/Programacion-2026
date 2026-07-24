@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background: #0b0d13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+}
+.caja{
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+.uno{background: blue;}
+.dos{background: green;}
+.tres{background: orange;}
+.cuatro{background: red;}
+.cinco{background: purple;}
+.seis{background: deeppink;}
+.siete{background: deepskyblue;}
+.ocho{background: limegreen;}
+.nueve{background: darkorange;}
+
+.uno{justify-self: start; align-self: start;}
+.dos{justify-self: center; align-self: start;}
+.tres{justify-self: end; align-self: start;}
+.cuatro{justify-self: start; align-self: center;}
+.cinco{justify-self: center; align-self: center;}
+.seis{justify-self: end; align-self: center;}
+.siete{justify-self: start; align-self: end;}
+.ocho{justify-self: center; align-self: end;}
+.nueve{justify-self: end; align-self: end;}

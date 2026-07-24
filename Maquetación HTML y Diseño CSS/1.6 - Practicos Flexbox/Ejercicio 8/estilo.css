@@ -1,0 +1,47 @@
+body{
+    font-family:Arial, sans-serif;
+    background:#000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.tarjeta{
+    width:300px;
+    background:white;
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:20px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    color:rgb(0, 0, 0);
+}
+.tarjeta img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.estadisticas{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    font-size:12px;
+    color:rgb(0, 0, 0);
+}
+.botones{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.botones button{
+    width:48%;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background:dodgerblue;
+    color:white;
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background: #1d2233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 70px 300px 50px;
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+    gap: 10px;
+    width: 900px;
+}
+header{
+    grid-area: header;
+    background: deepskyblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+main{
+    grid-area: main;
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta{
+    width: 150px;
+    height: 200px;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    grid-area: aside;
+    background: gray;
+    padding: 15px;
+}
+footer{
+    grid-area: footer;
+    background: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background: #0f111a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor{
+    display: grid;
+
+    grid-template-columns: 200px 200px 120px;
+    grid-template-rows: 150px 100px;
+
+    grid-template-areas:
+        "hero hero sidebar"
+        "content content aside";
+
+    gap: 10px;
+}
+
+.hero{
+    grid-area: hero;
+    background: red;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: royalblue;
+}
+
+.content{
+    grid-area: content;
+    background: seagreen;
+}
+
+.aside{
+    grid-area: aside;
+    background: orange;
+}

@@ -1,0 +1,13 @@
+Ejercicio 1.6 - Debugging HTML
+
+Error 1 - Linea 6: Se abre <body> sin haber cerrado <head> - Correción: Agregar </head> antes de <body>
+
+Error 2 - Linea 7: Se escribe <Header> con mayúscula. Aunque HTML lo acepta, por convención se recomienda usar minúsculas
+
+Correción: Escribir <header>
+
+Error 3 - Linea 11: La etiqueta <p> no está cerrada. - Correción: Cambiar a <p>Hola, soy estudiante de programación</p>
+
+Error 4 - Linea 14: Falta cerrar la etiqueta <body> antes de </html>. - Correción: Agregar </body> antes de </html>
+
+Error 5 - Linea 2: Falta especificar el idioma del documento - Correción: <html lang="es">

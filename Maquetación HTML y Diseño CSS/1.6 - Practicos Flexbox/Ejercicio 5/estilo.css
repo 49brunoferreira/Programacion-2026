@@ -1,0 +1,6 @@
+body{background-color:black;}
+
+.container{display: flex;
+flex-direction: row-reverse;
+margin: 30px;
+color: aquamarine;}
